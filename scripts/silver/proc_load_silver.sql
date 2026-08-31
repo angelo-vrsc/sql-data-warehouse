@@ -1,3 +1,14 @@
+/*
+===============================================================================
+Carga e Limpeza da Camada Silver
+Descrição:
+    Cria a procedure 'silver.load_silver()', responsável por transformar, 
+    limpar e padronizar os dados brutos da camada 'bronze' e inseri-los 
+    na camada 'silver' (ETL/ELT).
+
+===============================================================================
+*/
+
 CREATE OR REPLACE PROCEDURE silver.load_silver()
 LANGUAGE plpgsql
 AS $$
