@@ -1,3 +1,14 @@
+/*
+===============================================================================
+Criação das Tabelas da Camada Silver
+Descrição:
+    DDL (Data Definition Language) para a camada 'silver'. Ele remove 
+	as estruturas anteriores (se existirem) e cria as tabelas destinadas
+	a receber dados limpos e padronizados das fontes CRM e ERP.
+
+===============================================================================
+*/
+
 DROP TABLE IF EXISTS silver.crm_cust_info;
 
 CREATE TABLE silver.crm_cust_info (
