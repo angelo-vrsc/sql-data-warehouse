@@ -1,3 +1,16 @@
+/*
+===============================================================================
+Carga de Dados da Camada Bronze (Stored Procedure)
+Descrição:
+    Cria a procedure 'bronze.load_bronze()', responsável por realizar a carga
+    de dados (Full Load) nas tabelas do schema 'bronze'. 
+    
+    A rotina limpa as tabelas existentes (TRUNCATE) e importa os dados brutos 
+    a partir de arquivos CSV dos sistemas de origem (CRM e ERP) usando o comando COPY.
+
+===============================================================================
+*/
+
 CREATE OR REPLACE PROCEDURE bronze.load_bronze()
 LANGUAGE plpgsql
 AS $$
