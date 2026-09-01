@@ -11,3 +11,39 @@
 **Tecnologias:** PostgreSQL, PL/pgSQL, SQL (DDL, DML, Window Functions), Git/GitHub.  
 
 **Resultados:** Transformação com sucesso de dados transacionais fragmentados dos sistemas CRM e ERP em um ambiente analítico de alta performance, otimizado para BI.
+
+
+
+## 📐 Arquitetura & Documentação Visual
+
+### 1. Arquitetura de Alto Nível
+Visão geral da solução, destacando a transição de arquivos brutos (CRM/ERP) para a arquitetura Medallion até a camada de consumo.
+
+![Arquitetura de Alto Nível](https://github.com/angelo-vrsc/sql-data-warehouse/blob/main/docs/Arquitetura%20de%20alto%20n%C3%ADvel.png)
+
+### 2. Fluxo de Dados (Pipeline ETL)
+Mapeamento de como os dados são extraídos e consolidados na **Gold**.
+
+![Fluxo de Dados](https://github.com/angelo-vrsc/sql-data-warehouse/blob/main/docs/Data%20Flow.png)
+
+### 3. Linhagem dos Dados (Data Lineage)
+Rastreabilidade campo a campo, mostrando como os dados brutos conversam.
+
+![Linhagem dos Dados](https://github.com/angelo-vrsc/sql-data-warehouse/blob/main/docs/Mapeamento%20de%20linhagem%20dos%20dados.png)
+
+### 4. Diagrama Entidade-Relacionamento (ERD)
+Modelagem dimensional Star Schema da camada **Gold**, detalhando chaves primárias/estrangeiras e seus relacionamentos.
+
+![Diagrama ERD](https://github.com/angelo-vrsc/sql-data-warehouse/blob/main/docs/Diagrama%20Entidade%20Relacionamento.png)
+
+  
+
+---
+
+## 📬 Informações para contato
+
+Sinta-se à vontade para entrar em contato comigo para discutir oportunidades, sugestões ou dúvidas sobre o projeto!
+
+- **Autor:** Angelo Carvalho
+- **LinkedIn:** [Angelo Carvalho](www.linkedin.com/in/angelo-victor-carvalho)
+- **E-mail:** angelovictor1999@gmail.com
