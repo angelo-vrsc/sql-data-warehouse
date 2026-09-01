@@ -14,7 +14,7 @@
 
 
 
-## 📐 Arquitetura & Documentação Visual
+## Arquitetura & Documentação Visual
 
 ### 1. Arquitetura de Alto Nível
 Visão geral da solução, destacando a transição de arquivos brutos (CRM/ERP) para a arquitetura Medallion até a camada de consumo.
@@ -40,7 +40,7 @@ Modelagem dimensional Star Schema da camada **Gold**, detalhando chaves primári
 
 ---
 
-## 📬 Informações para contato
+## Informações para contato
 
 Sinta-se à vontade para entrar em contato comigo para discutir oportunidades, sugestões ou dúvidas sobre o projeto!
 
