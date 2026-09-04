@@ -45,5 +45,5 @@ Modelagem dimensional Star Schema da camada **Gold**, detalhando chaves primári
 Sinta-se à vontade para entrar em contato comigo para discutir oportunidades, sugestões ou dúvidas sobre o projeto!
 
 - **Autor:** Angelo Carvalho
-- **LinkedIn:** [Angelo Carvalho](www.linkedin.com/in/angelo-victor-carvalho)
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/angelo-victor-carvalho)
 - **E-mail:** angelovictor1999@gmail.com
